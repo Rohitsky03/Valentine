@@ -1,0 +1,45 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #ffc0cb; /* Pink background */
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+}
+
+h1 {
+    color: white;
+    margin-bottom: 20px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    position: relative; /* Essential for positioning the 'No' button */
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 18px;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease; /* Smooth transition for movement */
+}
+
+#yes-btn {
+    background-color: #4CAF50; /* Green for Yes */
+    color: white;
+}
+
+#no-btn {
+    background-color: #f44336; /* Red for No */
+    color: white;
+    position: absolute; /* Allows JavaScript to control its exact position */
+}
