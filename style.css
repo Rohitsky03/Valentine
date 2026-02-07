@@ -148,7 +148,7 @@ button {
     position: absolute;
     bottom: -50px;
     font-size: 18px;
-    color: rgba(228, 12, 12, 0.85);
+    color: rgba(255, 63, 63, 0.771);
     animation: floatUp linear infinite;
 }
 
@@ -211,3 +211,4 @@ button {
     background: rgba(0, 0, 0, 0.3);
     z-index: 1;
 }
+
